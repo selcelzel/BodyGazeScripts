@@ -10,15 +10,10 @@ public class CanvasController : MonoBehaviour
     {
         // Increment the timer each frame
         timer += Time.deltaTime;
-
-        // Check if the timer has reached the desired delay
         if (timer >= delay)
         {
             // Set the Canvas to be visible
             myCanvas.enabled = true;
-
-            // Optionally, you can stop the timer or perform other actions
-            // depending on your specific requirements.
         }
     }
 }
